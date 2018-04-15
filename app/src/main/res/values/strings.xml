@@ -1,0 +1,689 @@
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">Lost and Found Dog</string>
+
+    <!-- Screen -->
+    <string name="screen_text">กดที่นี่เพื่อเข้าสู่ Application</string>
+
+    <!-- Log In -->
+    <string name="log_in_email">อีเมล</string>
+    <string name="log_in_password">รหัสผ่าน</string>
+    <string name="log_in_btn_submit">เข้าสู่ระบบ</string>
+    <string name="log_in_btn_to_sign_up">หากยังไม่มีบัญชีผู้ใช้ กดที่นี่เพื่อเพิ่มบัญชีผู้ใช้</string>
+    <string name="log_in_alert_case1">ใส่อีเมลผิดพลาด จำนวนตัวอักษรควรมีตั้งแต่ 10 ตัวอักษรขึ้นไป</string>
+    <string name="log_in_alert_case2">ใส่อีเมลผิดพลาด ควรมีตัวอักษร @ อยู่ในชื่ออีเมล</string>
+    <string name="log_in_alert_case3">ใส่รหัสผ่านผิดพลาด จำนวนตัวอักษรควรมีตั้งแต่ 6 – 20 ตัวอักษร</string>
+    <string name="log_in_alert_case4">เกิดข้อผิดพลาด กรุณาเช็คอีเมลหรือรหัสผ่าน</string>
+    <string name="log_in_alert_case5">โปรดใส่อีเมล</string>
+    <string name="log_in_alert_case6">โปรดใส่รหัสผ่าน</string>
+    <string name="log_in_alert_title">แจ้งเตือน</string>
+    <string name="log_in_alert_done">ตกลง</string>
+    <string name="log_in_progress">เช็คการเข้าสู่ระบบ…</string>
+
+    <!-- Sign Up -->
+    <string name="sign_up_username">ชื่อผู้ใช้</string>
+    <string name="sign_up_email">อีเมล</string>
+    <string name="sign_up_password">รหัสผ่าน</string>
+    <string name="sign_up_btn_submit">เพิ่มบัญชีผู้ใช้</string>
+    <string name="sign_up_alert_case1">ชื่อผู้ใช้ควรมีจำนวนตัวอักษร ตั้งแต่ 4 – 20 ตัวอักษร</string>
+    <string name="sign_up_alert_case2">อีเมลควรมีจำนวนตัวอักษร ตั้งแต่ 10 ตัวอักษรขึ้นไป</string>
+    <string name="sign_up_alert_case3">อีเมลควรมีตัวอักษร @ อยู่ในชื่ออีเมลด้วย</string>
+    <string name="sign_up_alert_case4">รหัสผ่านควรมีจำนวนตัวอักษร ตั้งแต่ 6 – 20 ตัวอักษร</string>
+    <string name="sign_up_alert_case5">เกิดข้อผิดพลาด อาจมีชื่อผู้ใช้หรือชื่ออีเมลซ้ำ กรุณาเช็คชื่อผู้ใช้และอีเมล</string>
+    <string name="sign_up_alert_case6">โปรดใส่ชื่อผู้ใช้</string>
+    <string name="sign_up_alert_case7">โปรดใส่อีเมล</string>
+    <string name="sign_up_alert_case8">โปรดใส่รหัสผ่าน</string>
+    <string name="sign_up_alert_title">แจ้งเตือน</string>
+    <string name="sign_up_alert_done">ตกลง</string>
+    <string name="sign_up_progress">ระบบกำลังเพิ่มบัญชีผู้ใช้…</string>
+    <string name="sign_up_msg">อีเมลของท่านไม่จำเป็นต้องเป็นอีเมลที่ท่านใช้อยู่จรืง</string>
+    <string name="sign_up_done">ตกลง</string>
+
+    <!-- Main -->
+    <string name="main_title">หน้าหลัก</string>
+    <string name="main_alert_title">แจ้งเตือน</string>
+    <string name="main_alert_msg">หากท่านแน่ใจว่าจะออกจาก App นี้ กดตกลง</string>
+    <string name="main_alert_done">ตกลง</string>
+    <string name="main_alert_cancel">ยกเลิก</string>
+
+    <!-- Main Poster -->
+    <string name="main_poster_t_status">สถานะ</string>
+    <string name="main_poster_status">status</string>
+    <string name="main_poster_t_date">วันที่</string>
+    <string name="main_poster_date">date</string>
+    <string name="main_poster_location1">นำ</string>
+    <string name="main_poster_location2">สถานที่</string>
+    <string name="main_poster_t_district">อำเภอ</string>
+    <string name="main_poster_district">district</string>
+    <string name="main_poster_t_province">จังหวัด</string>
+    <string name="main_poster_province">province</string>
+    <string name="main_poster_t_phone">ติดต่อ</string>
+    <string name="main_poster_phone">เบอร์โทร</string>
+
+    <!-- Maps -->
+    <string name="maps_title">แผนที่</string>
+    <string name="maps_alert_title">แจ้งเตือน</string>
+    <string name="maps_alert_msg">หากท่านแน่ใจว่าจะออกจาก App นี้ กดตกลง</string>
+    <string name="maps_alert_done">ตกลง</string>
+    <string name="maps_alert_cancel">ยกเลิก</string>
+    <string name="maps_alert_maps">โปรดเช็ค Wi-Fi หรือเปิด GPS หากแผนที่ไม่แสดง</string>
+
+    <!-- Popup Bottom Bar -->
+    <string name="popup_lost">หาย</string>
+    <string name="popup_found">พบ</string>
+    <string name="popup_adopt">หาบ้านใหม่</string>
+
+    <!-- Bottom Bar Menu -->
+    <string name="bottom_bar_menu_main">หน้าหลัก</string>
+    <string name="bottom_bar_menu_maps">แผนที่</string>
+    <string name="bottom_bar_menu_post">ประกาศ</string>
+    <string name="bottom_bar_menu_user">เกี่ยวกับผู้ใช้</string>
+    <string name="bottom_bar_menu_log_out">ออก</string>
+
+    <!-- Lost Dog Input -->
+    <string name="lost_dog_input_title">ใส่ข้อมูลสุนัขที่หาย</string>
+    <string name="lost_dog_input_choose">เลือกรูปภาพ</string>
+    <string name="lost_dog_input_t_dog_name">ชื่อสุนัข :</string>
+    <string name="lost_dog_input_dog_name">ใส่ชื่อสุนัข</string>
+    <string name="lost_dog_input_t_breed">สายพันธุ์ :</string>
+    <string name="lost_dog_input_breed">เลือกสายพันธุ์ของสุนัข</string>
+    <string name="lost_dog_input_breed2">* เลือกสายพันธุ์ของสุนัข</string>
+    <string name="lost_dog_input_alert_breed">เลือกสายพันธุ์ของสุนัข</string>
+    <string name="lost_dog_input_t_gender">เพศ :</string>
+    <string name="lost_dog_input_gender">เลือกเพศของสุนัข</string>
+    <string name="lost_dog_input_gender2">* เลือกเพศของสุนัข</string>
+    <string name="lost_dog_input_alert_gender">เลือกเพศของสุนัข</string>
+    <string name="lost_dog_input_t_age">อายุ :</string>
+    <string name="lost_dog_input_age">เลือกอายุของสุนัข</string>
+    <string name="lost_dog_input_age2">* เลือกอายุของสุนัข</string>
+    <string name="lost_dog_input_alert_age">เลือกอายุของสุนัข</string>
+    <string name="lost_dog_input_year">ปี</string>
+    <string name="lost_dog_input_t_location">สถานที่หาย :</string>
+    <string name="lost_dog_input_alert_location1">เลือกรูปแบบของสถานที่</string>
+    <string name="lost_dog_input_location1">รูปแบบ</string>
+    <string name="lost_dog_input_location1_2">* รูปแบบ</string>
+    <string name="lost_dog_input_location2">ใสชื่อสถานที่</string>
+    <string name="lost_dog_input_t_district">อำเภอของสถานที่หาย :</string>
+    <string name="lost_dog_input_district">เลือกอำเภอ</string>
+    <string name="lost_dog_input_district2">* เลือกอำเภอ</string>
+    <string name="lost_dog_input_alert_district">เลือกอำเภอ</string>
+    <string name="lost_dog_input_t_lost_date">วันที่หาย :</string>
+    <string name="lost_dog_input_lost_date">เลือกวันที่หาย</string>
+    <string name="lost_dog_input_lost_date2">* เลือกวันที่หาย</string>
+    <string name="lost_dog_input_t_phone">เบอร์โทรติดต่อ :</string>
+    <string name="lost_dog_input_phone">ใส่เบอร์โทรติดต่อ</string>
+    <string name="lost_dog_input_t_backup_phone">เบอร์โทรติดต่อสำรอง (ถ้ามี) :</string>
+    <string name="lost_dog_input_backup_phone">ใส่เบอร์โทรติดต่อสำรอง</string>
+    <string name="lost_dog_input_t_facebook">Facebook (ถ้ามี) :</string>
+    <string name="lost_dog_input_facebook">ใส่ facebook ติดต่อ</string>
+    <string name="lost_dog_input_t_line">Line (ถ้ามี) :</string>
+    <string name="lost_dog_input_line">ใส่ line ติดต่อ</string>
+    <string name="lost_dog_input_t_vaccinate">ฉีดวัคซีน :</string>
+    <string name="lost_dog_input_vaccinate">เลือกสถานะการฉีดวัคซีน</string>
+    <string name="lost_dog_input_vaccinate2">* เลือกสถานะการฉีดวัคซีน</string>
+    <string name="lost_dog_input_alert_vaccinate">เลือกสถานะการฉีดวัคซีน</string>
+    <string name="lost_dog_input_t_habit">นิสัย :</string>
+    <string name="lost_dog_input_habit">เลือกนิสัยของสุนัข</string>
+    <string name="lost_dog_input_habit2">* เลือกนิสัยของสุนัข</string>
+    <string name="lost_dog_input_alert_habit">เลือกนิสัยของสุนัข</string>
+    <string name="lost_dog_input_t_collar">ปลอกคอ :</string>
+    <string name="lost_dog_input_collar">เลือกปลอกคอ</string>
+    <string name="lost_dog_input_collar2">* เลือกปลอกคอ</string>
+    <string name="lost_dog_input_alert_collar">เลือกปลอกคอ</string>
+    <string name="lost_dog_input_t_reward">เงินรางวัล (ถ้ามี) :</string>
+    <string name="lost_dog_input_reward">ใส่จำนวนเงินรางวัล</string>
+    <string name="lost_dog_input_alert_title">แจ้งเตือน</string>
+    <string name="lost_dog_input_alert_msg">หากท่านแน่ใจในข้อมูลที่ใส่ไป กดตกลง</string>
+    <string name="lost_dog_input_alert_done">ตกลง</string>
+    <string name="lost_dog_input_alert_cancel">ยกเลิก</string>
+    <string name="lost_dog_input_alert_case1">โปรดเลือกรูปภาพสุนัข</string>
+    <string name="lost_dog_input_alert_case2">โปรดใส่ชื่อของสุนัข</string>
+    <string name="lost_dog_input_alert_case3">โปรดเลือกสายพันธุ์ของสุนัข</string>
+    <string name="lost_dog_input_alert_case4">โปรดเลือกสายพันธุ์ของสุนัข</string>
+    <string name="lost_dog_input_alert_case5">โปรดเลือกเพศของสุนัข</string>
+    <string name="lost_dog_input_alert_case6">โปรดเลือกเพศของสุนัข</string>
+    <string name="lost_dog_input_alert_case7">โปรดเลือกอายุของสุนัข</string>
+    <string name="lost_dog_input_alert_case8">โปรดเลือกอายุของสุนัข</string>
+    <string name="lost_dog_input_alert_case9">โปรดเลือกรูปแบบของสถานที่</string>
+    <string name="lost_dog_input_alert_case10">โปรดเลือกรูปแบบของสถานที่</string>
+    <string name="lost_dog_input_alert_case11">โปรดใส่ชื่อสถานที่</string>
+    <string name="lost_dog_input_alert_case12">โปรดเลือกอำเภอ</string>
+    <string name="lost_dog_input_alert_case13">โปรดเลือกอำเภอ</string>
+    <string name="lost_dog_input_alert_case14">โปรดเลือกวันที่สุนัขหาย</string>
+    <string name="lost_dog_input_alert_case15">โปรดเลือกวันที่สุนัขหาย</string>
+    <string name="lost_dog_input_alert_case16">โปรดใส่เบอร์โทรติดต่อ</string>
+    <string name="lost_dog_input_alert_case17">โปรดเลือกสถานะการฉีดวัคซีน</string>
+    <string name="lost_dog_input_alert_case18">โปรดเลือกสถานะการฉีดวัคซีน</string>
+    <string name="lost_dog_input_alert_case19">โปรดเลือกนิสัยของสุนัข</string>
+    <string name="lost_dog_input_alert_case20">โปรดเลือกนิสัยของสุนัข</string>
+    <string name="lost_dog_input_alert_case21">โปรดเลือกปลอกคอ</string>
+    <string name="lost_dog_input_alert_case22">โปรดเลือกปลอกคอ</string>
+    <string name="lost_dog_input_alert_case23">ชื่อสุนัขควรมีจำนวนตัวอักษร ตั้งแต่ 1 – 10 ตัวอักษร</string>
+    <string name="lost_dog_input_alert_case24">ชื่อสถานที่ควรมีจำนวนตัวอักษร ตั้งแต่ 5 – 13 ตัวอักษร</string>
+    <string name="lost_dog_input_alert_case25">จำนวนตัวเลขของเบอร์ติดต่อ ควรมี 9 หรือ 10 ตัวเลข</string>
+    <string name="lost_dog_input_alert_case26">จำนวนตัวเลขของเบอร์ติดต่อ ควรมี 9 หรือ 10 ตัวเลข</string>
+    <string name="lost_dog_input_alert_case27">ชื่อ Facebook ควรมีจำนวนตัวอักษร ตั้งแต่ 3 – 50 ตัวอักษร</string>
+    <string name="lost_dog_input_alert_case28">ชื่อ Line ควรมีจำนวนตัวอักษร ตั้งแต่ 3 – 15 ตัวอักษร</string>
+
+    <!-- Lost Dog Location -->
+    <string name="lost_dog_location_title">พิกัดจุดที่หาย</string>
+
+    <!-- Lost Dog Post -->
+    <string name="lost_dog_post_title">โพสต์สุนัขที่หาย</string>
+    <string name="lost_dog_post_t_post">วันที่โพสต์ :</string>
+    <string name="lost_dog_post_post">ไม่มี</string>
+    <string name="lost_dog_post_t_status">สภานะ :</string>
+    <string name="lost_dog_post_status">ไม่มี</string>
+    <string name="lost_dog_post_t_username">ชื่อผู้โพสต์</string>
+    <string name="lost_dog_post_username">ไม่มี</string>
+    <string name="lost_dog_post_t_lost_date">วันที่หาย :</string>
+    <string name="lost_dog_post_lost_date">ไม่มี</string>
+    <string name="lost_dog_post_t_district">อำเภอของสถานที่หาย :</string>
+    <string name="lost_dog_post_district">ไม่มี</string>
+    <string name="lost_dog_post_t_province">จังหวัด</string>
+    <string name="lost_dog_post_province">สมุทรปราการ</string>
+    <string name="lost_dog_post_t_phone">เบอร์โทรติดต่อ :</string>
+    <string name="lost_dog_post_phone">ไม่มี</string>
+    <string name="lost_dog_post_t_backup_phone">เบอร์โทรติดต่อสำรอง :</string>
+    <string name="lost_dog_post_backup_phone">ไม่มี</string>
+    <string name="lost_dog_post_t_facebook">Facebook :</string>
+    <string name="lost_dog_post_facebook">ไม่มี</string>
+    <string name="lost_dog_post_t_line">Line :</string>
+    <string name="lost_dog_post_line">ไม่มี</string>
+    <string name="lost_dog_post_t_dog_name">ชื่อสุนัข :</string>
+    <string name="lost_dog_post_dog_name">ไม่มี</string>
+    <string name="lost_dog_post_t_breed">สายพันธุ์ :</string>
+    <string name="lost_dog_post_breed">ไม่มี</string>
+    <string name="lost_dog_post_t_gender">เพศ "</string>
+    <string name="lost_dog_post_gender">ไม่มี</string>
+    <string name="lost_dog_post_t_age">อายุ :</string>
+    <string name="lost_dog_post_age">ไม่มี</string>
+    <string name="lost_dog_post_year">ปี</string>
+    <string name="lost_dog_post_t_location">สถานที่หาย :</string>
+    <string name="lost_dog_post_location1">คำนำหน้า</string>
+    <string name="lost_dog_post_location2">ไม่มี</string>
+    <string name="lost_dog_post_t_vaccinate">ฉีดวัคซีน :</string>
+    <string name="lost_dog_post_vaccinate">ไม่มี</string>
+    <string name="lost_dog_post_t_habit">นิสัย :</string>
+    <string name="lost_dog_post_habit">ไม่มี</string>
+    <string name="lost_dog_post_t_collar">ปลอกคอ :</string>
+    <string name="lost_dog_post_collar">ไม่มี</string>
+    <string name="lost_dog_post_t_reward">เงินรางวัล :</string>
+    <string name="lost_dog_post_reward">0</string>
+    <string name="lost_dog_post_currency">บาท</string>
+    <string name="lost_dog_post_alert_title">แจ้งเตือน</string>
+    <string name="lost_dog_post_alert_msg">หากท่านตรวจสอบข้อมูลว่าตรงกับที่ท่านต้องการแล้ว กดตกลง</string>
+    <string name="lost_dog_post_alert_done">ตกลง</string>
+    <string name="lost_dog_post_alert_cancel">ยกเลิก</string>
+
+    <!-- Lost Dog Poster -->
+    <string name="lost_dog_poster_t_lost_date">หาย</string>
+    <string name="lost_dog_poster_lost_date">วันที่</string>
+    <string name="lost_dog_poster_t_district">อำเภอ</string>
+    <string name="lost_dog_poster_district">อำเภอ</string>
+    <string name="lost_dog_poster_t_province">จังหวัด</string>
+    <string name="lost_dog_poster_province">สมุทรปราการ</string>
+    <string name="lost_dog_poster_t_dog_name">ชื่อ</string>
+    <string name="lost_dog_poster_dog_name">ชื่อสุนัข</string>
+    <string name="lost_dog_poster_breed">สายพันธุ์</string>
+    <string name="lost_dog_poster_t_gender">เพศ</string>
+    <string name="lost_dog_poster_gender">เพศ</string>
+    <string name="lost_dog_poster_age">อายุ</string>
+    <string name="lost_dog_poster_t_age">อายุ</string>
+    <string name="lost_dog_poster_t_location">สถานที่หาย</string>
+    <string name="lost_dog_poster_location1">นำ</string>
+    <string name="lost_dog_poster_location2">ชื่อสถานที่</string>
+    <string name="lost_dog_poster_t_reward">เงินรางวัล</string>
+    <string name="lost_dog_poster_reward">เงิน</string>
+    <string name="lost_dog_poster_currency">บาท</string>
+    <string name="lost_dog_poster_t_phone">เบอร์โทรติดต่อ</string>
+    <string name="lost_dog_poster_phone">เบอร์โทร</string>
+    <string name="lost_dog_poster_t_facebook">Facebook</string>
+    <string name="lost_dog_poster_facebook">facebook</string>
+    <string name="lost_dog_poster_t_line">Line</string>
+    <string name="lost_dog_poster_line">line</string>
+
+    <!-- Found Dog Input -->
+    <string name="found_dog_input_title">ใส่ข้อมูลสุนัขที่พบ</string>
+    <string name="found_dog_input_choose">เลือกรูปภาพ</string>
+    <string name="found_dog_input_t_breed">สายพันธุ์ :</string>
+    <string name="found_dog_input_breed">เลือกสายพันธุ์สุนัข</string>
+    <string name="found_dog_input_breed2">* เลือกสายพันธุ์สุนัข</string>
+    <string name="found_dog_input_alert_breed">เลือกสายพันธุ์สุนัข</string>
+    <string name="found_dog_input_t_gender">เพศ :</string>
+    <string name="found_dog_input_gender">เลือกเพศสุนัข</string>
+    <string name="found_dog_input_gender2">* เลือกเพศสุนัข</string>
+    <string name="found_dog_input_alert_gender">เลือกเพศสุนัข</string>
+    <string name="found_dog_input_t_location">สถานทีพบ :</string>
+    <string name="found_dog_input_alert_location1">เลือกรูปแบบของสถานที่</string>
+    <string name="found_dog_input_location1">รูปแบบ</string>
+    <string name="found_dog_input_location1_2">* รูปแบบ</string>
+    <string name="found_dog_input_location2">ใสชื่อสถานที่</string>
+    <string name="found_dog_input_location2_2">* ใสชื่อสถานที่</string>
+    <string name="found_dog_input_t_district">อำเภอสถานที่พบ :</string>
+    <string name="found_dog_input_district">เลือกอำเภอ</string>
+    <string name="found_dog_input_district2">* เลือกอำเภอ</string>
+    <string name="found_dog_input_alert_district">เลือกอำเภอ</string>
+    <string name="found_dog_input_t_found_date">วันที่พบ :</string>
+    <string name="found_dog_input_found_date">เลือกวันที่พบ</string>
+    <string name="found_dog_input_found_date2">* เลือกวันที่พบ</string>
+    <string name="found_dog_input_t_phone">เบอร์โทรติดต่อ :</string>
+    <string name="found_dog_input_phone">ใส่เบอร์โทรติดต่อ</string>
+    <string name="found_dog_input_t_backup_phone">เบอร์โทรติดต่อสำรอง (ถ้ามี) :</string>
+    <string name="found_dog_input_backup_phone">ใส่เบอร์โทรติดต่อสำรอง</string>
+    <string name="found_dog_input_t_facebook">Facebook (ถ้ามี) :</string>
+    <string name="found_dog_input_facebook">ใส่ facebook ติดต่อ</string>
+    <string name="found_dog_input_t_line">Line (ถ้ามี) :</string>
+    <string name="found_dog_input_line">ใส่ line ติดต่อ</string>
+    <string name="found_dog_input_t_collar">ปลอกคอ :</string>
+    <string name="found_dog_input_collar">เลือกปลอกคอ</string>
+    <string name="found_dog_input_collar2">* เลือกปลอกคอ</string>
+    <string name="found_dog_input_alert_collar">เลือกปลอกคอ</string>
+    <string name="found_dog_input_alert_title">แจ้งเตือน</string>
+    <string name="found_dog_input_alert_msg">หากท่านแน่ใจในข้อมูลที่ใส่ไป กดตกลง</string>
+    <string name="found_dog_input_alert_done">ตกลง</string>
+    <string name="found_dog_input_alert_cancel">ยกเลิก</string>
+    <string name="found_dog_input_alert_case1">โปรดเลือกรูปภาพสุนัข</string>
+    <string name="found_dog_input_alert_case2">โปรดเลือกสายพันธุ์สุนัข</string>
+    <string name="found_dog_input_alert_case3">โปรดเลือกสายพันธุ์สุนัข</string>
+    <string name="found_dog_input_alert_case4">โปรดเลือกเพศุนัข</string>
+    <string name="found_dog_input_alert_case5">โปรดเลือกเพศุนัข</string>
+    <string name="found_dog_input_alert_case6">โปรดเลือกรูปแบบของสถานที่</string>
+    <string name="found_dog_input_alert_case7">โปรดเลือกรูปแบบของสถานที่</string>
+    <string name="found_dog_input_alert_case8">โปรดใส่ชื่อสถานที่</string>
+    <string name="found_dog_input_alert_case9">โปรดเลือกอำเภอ</string>
+    <string name="found_dog_input_alert_case10">โปรดเลือกอำเภอ</string>
+    <string name="found_dog_input_alert_case11">โปรดเลือกวันที่พบสุนัขหาย</string>
+    <string name="found_dog_input_alert_case12">โปรดเลือกวันที่พบสุนัขหาย</string>
+    <string name="found_dog_input_alert_case13">โปรดใส่เบอร์โทรติดต่อ</string>
+    <string name="found_dog_input_alert_case14">โปรดเลือกปลอกคอ</string>
+    <string name="found_dog_input_alert_case15">โปรดเลือกปลอกคอ</string>
+    <string name="found_dog_input_alert_case16">ชื่อสถานที่ควรมีจำนวนตัวอักษร ตั้งแต่ 5 – 13 ตัวอักษร</string>
+    <string name="found_dog_input_alert_case17">จำนวนตัวเลขของเบอร์ติดต่อ ควรมี 9 หรือ 10 ตัวเลข</string>
+
+    <!-- Found Dog Location -->
+    <string name="found_dog_location_title">พิกัดจุดที่พบ</string>
+
+    <!-- Found Dog Post -->
+    <string name="found_dog_post_title">โพสต์สุนัขที่พบ</string>
+    <string name="found_dog_post_t_post">วันที่โพสต์ :</string>
+    <string name="found_dog_post_post">ไม่มี</string>
+    <string name="found_dog_post_t_status">สภานะ :</string>
+    <string name="found_dog_post_status">ไม่มี</string>
+    <string name="found_dog_post_t_breed">สายพันธุ์ :</string>
+    <string name="found_dog_post_breed">ไม่มี</string>
+    <string name="found_dog_post_t_found_date">วันที่พบ :</string>
+    <string name="found_dog_post_found_date">ไม่มี</string>
+    <string name="found_dog_post_t_district">อำเภอสถานที่พบ :</string>
+    <string name="found_dog_post_district">ไม่มี</string>
+    <string name="found_dog_post_t_province">จังหวัด</string>
+    <string name="found_dog_post_province">สมุทรปราการ</string>
+    <string name="found_dog_post_t_phone">เบอร์โทรติดต่อ :</string>
+    <string name="found_dog_post_phone">ไม่มี</string>
+    <string name="found_dog_post_t_backup_phone">เบอร์โทรติดต่อสำรอง :</string>
+    <string name="found_dog_post_backup_phone">ไม่มี</string>
+    <string name="found_dog_post_t_facebook">Facebook :</string>
+    <string name="found_dog_post_facebook">ไม่มี</string>
+    <string name="found_dog_post_t_line">Line :</string>
+    <string name="found_dog_post_line">ไม่มี</string>
+    <string name="found_dog_post_t_gender">เพศ :</string>
+    <string name="found_dog_post_gender">ไม่มี</string>
+    <string name="found_dog_post_t_location">สถานที่พบ :</string>
+    <string name="found_dog_post_location1">คำนำหน้า</string>
+    <string name="found_dog_post_location2">ไม่มี</string>
+    <string name="found_dog_post_t_collar">ปลอกคอ :</string>
+    <string name="found_dog_post_collar">ไม่มี</string>
+    <string name="found_dog_post_alert_title">แจ้งเตือน</string>
+    <string name="found_dog_post_alert_msg">หากท่านตรวจสอบข้อมูลว่าตรงกับที่ท่านต้องการแล้ว กดตกลง</string>
+    <string name="found_dog_post_alert_done">ตกลง</string>
+    <string name="found_dog_post_alert_cancel">ยกเลิก</string>
+
+    <!-- Found Dog Poster -->
+    <string name="found_dog_poster_t_found_date">พบ</string>
+    <string name="found_dog_poster_found_date">วันที่</string>
+    <string name="found_dog_poster_t_gender">เพศ</string>
+    <string name="found_dog_poster_gender">เพศ</string>
+    <string name="found_dog_poster_t_collar">ปลอกคอ</string>
+    <string name="found_dog_poster_collar">คอ</string>
+    <string name="found_dog_poster_t_district">อำเภอ</string>
+    <string name="found_dog_poster_district">ชื่ออำเภอ</string>
+    <string name="found_dog_poster_t_province">จังหวัด</string>
+    <string name="found_dog_poster_province">สมุทรปราการ</string>
+    <string name="found_dog_poster_t_location">สถานที่พบ</string>
+    <string name="found_dog_poster_location1">นำ</string>
+    <string name="found_dog_poster_location2">ชื่อสถานที่</string>
+    <string name="found_dog_poster_t_phone">ติดต่อด่วน</string>
+    <string name="found_dog_poster_phone">เบอร์โทร</string>
+    <string name="found_dog_poster_t_facebook">Facebook</string>
+    <string name="found_dog_poster_facebook">facebook</string>
+    <string name="found_dog_poster_t_line">Line</string>
+    <string name="found_dog_poster_line">line</string>
+
+    <!-- Adopt Dog Input -->
+    <string name="adopt_dog_input_title">ใส่ข้อมูลของสุนัขที่ต้องการให้รับเลี้ยง</string>
+    <string name="adopt_dog_input_choose">เลือกรูปภาพ</string>
+    <string name="adopt_dog_input_t_dog_name">ชื่อสุนัข :</string>
+    <string name="adopt_dog_input_dog_name">ใส่ชื่อสุนัข</string>
+    <string name="adopt_dog_input_t_breed">สายพันธุ์ :</string>
+    <string name="adopt_dog_input_breed">เลือกสายพันธุ์สุนัข</string>
+    <string name="adopt_dog_input_breed2">* เลือกสายพันธุ์สุนัข</string>
+    <string name="adopt_dog_input_alert_breed">เลือกสายพันธุ์สุนัข</string>
+    <string name="adopt_dog_input_t_gender">เพศ :</string>
+    <string name="adopt_dog_input_gender">เลือกเพศสุนัข</string>
+    <string name="adopt_dog_input_gender2">* เลือกเพศสุนัข</string>
+    <string name="adopt_dog_input_alert_gender">เลือกเพศสุนัข</string>
+    <string name="adopt_dog_input_t_age">อายุ :</string>
+    <string name="adopt_dog_input_age">เลือกอายุของสุนัข</string>
+    <string name="adopt_dog_input_age2">* เลือกอายุของสุนัข</string>
+    <string name="adopt_dog_input_alert_age">เลือกอายุของสุนัข</string>
+    <string name="adopt_dog_input_year">ปี</string>
+    <string name="adopt_dog_input_t_location">สถานที่อยู่ :</string>
+    <string name="adopt_dog_input_alert_location1">เลือกรูปแบบของสถานที่</string>
+    <string name="adopt_dog_input_location1">รูปแบบ</string>
+    <string name="adopt_dog_input_location1_2">* รูปแบบ</string>
+    <string name="adopt_dog_input_location2">ใสชื่อสถานที่</string>
+    <string name="adopt_dog_input_t_district">อำเภอของสถานที่อยู่ :</string>
+    <string name="adopt_dog_input_district">เลือกอำเภอ</string>
+    <string name="adopt_dog_input_district2">* เลือกอำเภอ</string>
+    <string name="adopt_dog_input_alert_district">เลือกอำเภอ</string>
+    <string name="adopt_dog_input_t_lost_date">วันที่ประกาศ :</string>
+    <string name="adopt_dog_input_adopt_date">เลือกวันที่ประกาศ</string>
+    <string name="adopt_dog_input_adopt_date2">* เลือกวันที่ประกาศ</string>
+    <string name="adopt_dog_input_t_phone">เบอร์โทรติดต่อ :</string>
+    <string name="adopt_dog_input_phone">ใส่เบอร์โทรติดต่อ</string>
+    <string name="adopt_dog_input_t_backup_phone">เบอร์โทรติดต่อสำรอง (ถ้ามี) :</string>
+    <string name="adopt_dog_input_backup_phone">ใส่เบอร์โทรติดต่อสำรอง</string>
+    <string name="adopt_dog_input_t_facebook">Facebook (ถ้ามี) :</string>
+    <string name="adopt_dog_input_facebook">ใส่ facebook ติดต่อ</string>
+    <string name="adopt_dog_input_t_line">Line (ถ้ามี) :</string>
+    <string name="adopt_dog_input_line">ใส่ line ติดต่อ</string>
+    <string name="adopt_dog_input_t_vaccinate">ฉีดวัคซีน :</string>
+    <string name="adopt_dog_input_vaccinate">เลือกสถานะการฉีดวัคซีน</string>
+    <string name="adopt_dog_input_vaccinate2">* เลือกสถานะการฉีดวัคซีน</string>
+    <string name="adopt_dog_input_alert_vaccinate">เลือกสถานะการฉีดวัคซีน</string>
+    <string name="adopt_dog_input_t_habit">นิสัย :</string>
+    <string name="adopt_dog_input_habit">เลือกนิสัยของสุนัข</string>
+    <string name="adopt_dog_input_habit2">* เลือกนิสัยของสุนัข</string>
+    <string name="adopt_dog_input_alert_habit">เลือกนิสัยของสุนัข</string>
+    <string name="adopt_dog_input_t_reason">เหตุผลหลักที่ต้องการให้คนอื่นรับเลี้ยง :</string>
+    <string name="adopt_dog_input_reason">เลือกเหตุผล</string>
+    <string name="adopt_dog_input_reason2">* เลือกเหตุผล</string>
+    <string name="adopt_dog_input_alert_reason">เลือกเหตุผล</string>
+    <string name="adopt_dog_input_alert_title">แจ้งเตือน</string>
+    <string name="adopt_dog_input_alert_msg">หากท่านแน่ใจในข้อมูลที่ใส่ไป กดตกลง</string>
+    <string name="adopt_dog_input_alert_done">ตกลง</string>
+    <string name="adopt_dog_input_alert_cancel">ยกเลิก</string>
+    <string name="adopt_dog_input_alert_case1">โปรดเลือกรูปภาพสุนัข</string>
+    <string name="adopt_dog_input_alert_case2">โปรดใส่ชื่อของสุนัข</string>
+    <string name="adopt_dog_input_alert_case3">โปรดเลือกสายพันธุ์สุนัข</string>
+    <string name="adopt_dog_input_alert_case4">โปรดเลือกสายพันธุ์สุนัข</string>
+    <string name="adopt_dog_input_alert_case5">โปรดเลือกเพศสุนัข</string>
+    <string name="adopt_dog_input_alert_case6">โปรดเลือกเพศสุนัข</string>
+    <string name="adopt_dog_input_alert_case7">โปรดเลือกอายุของสุนัข</string>
+    <string name="adopt_dog_input_alert_case8">โปรดเลือกอายุของสุนัข</string>
+    <string name="adopt_dog_input_alert_case9">โปรดเลือกรูปแบบของสถานที่</string>
+    <string name="adopt_dog_input_alert_case10">โปรดเลือกรูปแบบของสถานที่</string>
+    <string name="adopt_dog_input_alert_case11">โปรดใส่ชื่อสถานที่</string>
+    <string name="adopt_dog_input_alert_case12">โปรดเลือกอำเภอ</string>
+    <string name="adopt_dog_input_alert_case13">โปรดเลือกอำเภอ</string>
+    <string name="adopt_dog_input_alert_case14">โปรดใส่เบอร์โทรติดต่อ</string>
+    <string name="adopt_dog_input_alert_case15">โปรดเลือกสถานะการฉีดวัคซีน</string>
+    <string name="adopt_dog_input_alert_case16">โปรดเลือกสถานะการฉีดวัคซีน</string>
+    <string name="adopt_dog_input_alert_case17">โปรดเลือกนิสัยของสุนัข</string>
+    <string name="adopt_dog_input_alert_case18">โปรดเลือกนิสัยของสุนัข</string>
+    <string name="adopt_dog_input_alert_case19">โปรดเลือกเหตุผลหลักที่ต้องการให้รับเลี้ยง</string>
+    <string name="adopt_dog_input_alert_case20">โปรดเลือกเหตุผลหลักที่ต้องการให้รับเลี้ยง</string>
+    <string name="adopt_dog_input_alert_case21">ชื่อสุนัขควรมีจำนวนตัวอักษร ตั้งแต่ 5 – 13 ตัวอักษร</string>
+    <string name="adopt_dog_input_alert_case22">ชื่อสถานที่ควรมีจำนวนตัวอักษร ตั้งแต่ 5 – 13 ตัวอักษร</string>
+    <string name="adopt_dog_input_alert_case23">จำนวนตัวเลขของเบอร์ติดต่อ ควรมี 9 หรือ 10 ตัวเลข</string>
+
+    <!-- Adopt Dog Post -->
+    <string name="adopt_dog_post_title">โพสต์สุนัขที่ต้องการหาบ้านให้ใหม่</string>
+    <string name="adopt_dog_post_t_post">วันที่โพสต์ :</string>
+    <string name="adopt_dog_post_post">ไม่มี</string>
+    <string name="adopt_dog_post_t_status">สภานะ :</string>
+    <string name="adopt_dog_post_status">ไม่มี</string>
+    <string name="adopt_dog_post_t_dog_name">ชื่อสุนัข :</string>
+    <string name="adopt_dog_post_dog_name">ไม่มี</string>
+    <string name="adopt_dog_post_t_breed">สายพันธุ์ :</string>
+    <string name="adopt_dog_post_breed">ไม่มี</string>
+    <string name="adopt_dog_post_t_gender">เพศ :</string>
+    <string name="adopt_dog_post_gender">ไม่มี</string>
+    <string name="adopt_dog_post_t_age">อายุ :</string>
+    <string name="adopt_dog_post_age">ไม่มี</string>
+    <string name="adopt_dog_post_t_phone">เบอร์โทรติดต่อ :</string>
+    <string name="adopt_dog_post_phone">ไม่มี</string>
+    <string name="adopt_dog_post_t_backup_phone">เบอร์โทรติดต่อสำรอง :</string>
+    <string name="adopt_dog_post_backup_phone">ไม่มี</string>
+    <string name="adopt_dog_post_t_facebook">Facebook :</string>
+    <string name="adopt_dog_post_facebook">ไม่มี</string>
+    <string name="adopt_dog_post_t_line">Line :</string>
+    <string name="adopt_dog_post_line">ไม่มี</string>
+    <string name="adopt_dog_post_t_vaccinate">ฉีดวัคซีน :</string>
+    <string name="adopt_dog_post_vaccinate">ไม่มี</string>
+    <string name="adopt_dog_post_t_habit">นิสัย :</string>
+    <string name="adopt_dog_post_habit">ไม่มี</string>
+    <string name="adopt_dog_post_t_reason">เหตผลหลักที่หาบ้านให้สุนัข :</string>
+    <string name="adopt_dog_post_reason">ไม่มี</string>
+    <string name="adopt_dog_post_t_district">อำเภอที่อยู่ :</string>
+    <string name="adopt_dog_post_district">ไม่มี</string>
+    <string name="adopt_dog_post_t_province">จังหวัด</string>
+    <string name="adopt_dog_post_province">สมุทรปราการ</string>
+    <string name="adopt_dog_post_t_location">สถานที่อยู่ :</string>
+    <string name="adopt_dog_post_location1">คำนำหน้า</string>
+    <string name="adopt_dog_post_location2">ไม่มี</string>
+    <string name="adopt_dog_post_alert_title">แจ้งเตือน</string>
+    <string name="adopt_dog_post_alert_msg">หากท่านตรวจสอบข้อมูลว่าตรงกับที่ท่านต้องการแล้ว กดตกลง</string>
+    <string name="adopt_dog_post_alert_done">ตกลง</string>
+    <string name="adopt_dog_post_alert_cancel">ยกเลิก</string>
+
+    <!-- Adopt Dog Poster -->
+    <string name="adopt_dog_poster_t_dog_name">ชื่อสุนัข</string>
+    <string name="adopt_dog_poster_dog_name">ชื่อสุนัข</string>
+    <string name="adopt_dog_poster_t_adopt_date">พบ</string>
+    <string name="adopt_dog_poster_adopt_date">วันที่</string>
+    <string name="adopt_dog_poster_t_reason">เหตุผล</string>
+    <string name="adopt_dog_poster_reason">เหตุผล</string>
+    <string name="adopt_dog_poster_age">อายุ</string>
+    <string name="adopt_dog_poster_t_age">อายุ</string>
+    <string name="adopt_dog_poster_t_gender">เพศ</string>
+    <string name="adopt_dog_poster_gender">เพศ</string>
+    <string name="adopt_dog_poster_t_collar">ปลอกคอ</string>
+    <string name="adopt_dog_poster_collar">คอ</string>
+    <string name="adopt_dog_poster_t_district">อำเภอ</string>
+    <string name="adopt_dog_poster_district">ชื่ออำเภอ</string>
+    <string name="adopt_dog_poster_t_province">จังหวัด</string>
+    <string name="adopt_dog_poster_province">สมุทรปราการ</string>
+    <string name="adopt_dog_poster_t_location">สถานที่อยู่ของสุนัข</string>
+    <string name="adopt_dog_poster_location1">นำ</string>
+    <string name="adopt_dog_poster_location2">ชื่อสถานที่</string>
+    <string name="adopt_dog_poster_t_phone">ติดต่อด่วน</string>
+    <string name="adopt_dog_poster_phone">เบอร์โทร</string>
+
+    <!-- User -->
+    <string name="user_title">เกี่ยวกับผู้ใช้</string>
+    <string name="user_t_username">ชื่อผู้ใช้ :</string>
+    <string name="user_username">ชื่อ</string>
+    <string name="user_t_email">Email :</string>
+    <string name="user_email">email</string>
+    <string name="user_btn_lost">สุนัขที่หาย</string>
+    <string name="user_btn_found">สุนัขที่พบ</string>
+    <string name="user_btn_adopt">สุนัขที่ต้องการให้รับเลี้ยง</string>
+    <string name="user_alert_lost">*** หากสุนัขที่หายของท่าน มีคนพบแล้วและคืนสุนัขให้ท่าน โปรดลบโพสต์สุนัขที่หายของท่านด้วย ***</string>
+    <string name="user_alert_found">*** หากสุนัขที่ท่านพบ ได้คืนไปยังเจ้าของเดิมแล้ว โปรดลบโพสต์สุนัขที่พบของท่านด้วย ***</string>
+    <string name="user_alert_adopt">*** หากสุนัขที่ต้องการหาบ้านให้ใหม่ของท่านนั้น ได้มีผู้ที่ต้องการรับเลี้ยงแล้ว โปรดลบโพสต์หาบ้านให้สุนัขใหม่ด้วย ***</string>
+    <string name="user_alert_title">แจ้งเตือน</string>
+    <string name="user_alert_msg">ท่านต้องการลบโพสต์ของสุนัข ใช่หรือไม่?</string>
+    <string name="user_alert_done">ตกลง</string>
+    <string name="user_alert_cancel">ยกเลิก</string>
+    <string name="user_alert_title2">แจ้งเตือน</string>
+    <string name="user_alert_msg2">หากท่านแน่ใจว่าจะออกจาก App นี้ กดตกลง</string>
+    <string name="user_alert_done2">ตกลง</string>
+    <string name="user_alert_cancel2">ยกเลิก</string>
+
+    <!-- Search -->
+    <string name="search_t_status">สถานะ</string>
+    <string name="search_status">สถานะ</string>
+    <string name="search_status_date">วันที่</string>
+    <string name="search_date">วันที่</string>
+    <string name="search_btn_delete">ลบ</string>
+
+    <!-- Dialog Status -->
+    <string name="dialog_status_lost">สุนัขหาย</string>
+    <string name="dialog_status_found">พบสุนัข</string>
+    <string name="dialog_status_adopt">หาบ้านให้ใหม่</string>
+
+    <!-- Report User -->
+    <string name="report_user_title">เกี่ยวกับผู้ใช้</string>
+    <string name="report_user_t_username">ชื่อผู้ใช้ :</string>
+    <string name="report_user_username">ชื่อ</string>
+    <string name="report_user_t_email">Email :</string>
+    <string name="report_user_email">email</string>
+    <string name="report_user_btn_lost">สุนัขที่หาย</string>
+    <string name="report_user_btn_found">สุนัขที่พบ</string>
+    <string name="report_user_btn_adopt">สุนัขที่ต้องการให้รับเลี้ยง</string>
+    <string name="report_user_alert_lost">*** หากสุนัขที่หายของท่าน มีคนพบแล้วและคืนสุนัขให้ท่าน โปรดลบโพสต์สุนัขที่หายของท่านด้วย ***</string>
+    <string name="report_user_alert_found">*** หากสุนัขที่ท่านพบ ได้คืนไปยังเจ้าของเดิมแล้ว โปรดลบโพสต์สุนัขที่พบของท่านด้วย ***</string>
+    <string name="report_user_alert_adopt">*** หากสุนัขที่ต้องการหาบ้านให้ใหม่ของท่านนั้น ได้มีผู้ที่ต้องการรับเลี้ยงแล้ว โปรดลบโพสต์หาบ้านให้สุนัขใหม่ด้วย ***</string>
+    <string name="report_user_alert_title">แจ้งเตือน</string>
+    <string name="report_user_alert_msg">ท่านต้องการลบโพสต์ของสุนัข ใช่หรือไม่?</string>
+    <string name="report_user_alert_done">ตกลง</string>
+    <string name="report_user_alert_cancel">ยกเลิก</string>
+    <string name="report_user_alert_title2">แจ้งเตือน</string>
+    <string name="report_user_alert_msg2">หากท่านแน่ใจว่าจะออกจาก App นี้ กดตกลง</string>
+    <string name="report_user_alert_done2">ตกลง</string>
+    <string name="report_user_alert_cancel2">ยกเลิก</string>
+
+    <!-- Breed -->
+    <string name="breed_1">บีเกิล</string>
+    <string name="breed_2">บลูด๊อก</string>
+    <string name="breed_3">ชิวาวา</string>
+    <string name="breed_4">เฟรนช์ บูลด็อก</string>
+    <string name="breed_5">โกลเด้น รีทรฟเวอร์</string>
+    <string name="breed_6">แจ๊ค รัสเซล เทอร์เรีย</string>
+    <string name="breed_7">ลาบราดอร์ รีทรฟเวอร์</string>
+    <string name="breed_8">พูเดิล</string>
+    <string name="breed_9">ปอมเมอเรเนียน</string>
+    <string name="breed_10">ปั๊ก</string>
+    <string name="breed_11">ร๊อตต์ไวเลอร์</string>
+    <string name="breed_12">ชิสุ</string>
+    <string name="breed_13">ไซบีเรียน ฮัสกี้</string>
+    <string name="breed_14">ไทยบางแก้ว</string>
+    <string name="breed_15">ไทยหลังอาน</string>
+    <string name="breed_16">ยอร์คเชียร์ เทอร์เรียร์</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">ช่องทางติดต่ออื่น ๆ</string>
+    <string name="contacts_backup_phone_number">สำรอง :</string>
+    <string name="contacts_facebook">Facebook :</string>
+    <string name="contacts_line">Line :</string>
+    <string name="contacts_not">ไม่มี</string>
+
+    <!-- Report-->
+    <string name="report_users">รายงาน-ผุ้ใช้-</string>
+    <string name="report_users_title">รายงานข้อมูล-ผุ้ใช้-</string>
+    <string name="report_all_dog">รายงาน-สุนัขทั้งหมด-</string>
+    <string name="report_all_dog_title">รายงาน-สุนัขทั้งหมด-</string>
+    <string name="report_lost_dog">รายงาน-สุนัขที่หาย-</string>
+    <string name="report_lost_dog_title">รายงาน-สุนัขที่หาย-</string>
+    <string name="report_found_dog">รายงาน-สุนัขที่พบ-</string>
+    <string name="report_found_dog_title">รายงาน-สุนัขที่พบ-</string>
+    <string name="report_adopt_dog">รายงาน-สุนัขทีต้องการหาบ้านใหม่-</string>
+    <string name="report_adopt_dog_title">รายงาน-สุนัขทีต้องการหาบ้านใหม่-</string>
+    <string name="report_date">รายงาน-สุนัขทั้งหมดจำแนกตามวันที่-</string>
+    <string name="report_date_title">รายงาน-สุนัขทั้งหมดจำแนกตามวันที่-</string>
+    <string name="report_date_start">เริ่มวันที่</string>
+    <string name="report_date_end">สิ้นสุดวันที่</string>
+    <string name="report_date_button">ค้นหา</string>
+    <string name="report_total">รวม:</string>
+    <string name="report_dot">...</string>
+
+
+    <array name="breed">
+        <item>Beagle</item>
+        <item>Bulldog</item>
+        <item>Chihuahua</item>
+        <item>French Bulldog</item>
+        <item>Golden Retriever</item>
+        <item>Jack Russell Terrier</item>
+        <item>Poodle</item>
+        <item>Pomeranian</item>
+        <item>Pug</item>
+        <item>Rottweiler</item>
+        <item>Shih Tzu</item>
+        <item>Siberian Husky</item>
+        <item>Thai Bangkaew</item>
+        <item>Thai Ridgeback</item>
+        <item>Yorkshire Terrier</item>
+    </array>
+
+    <array name="breedTH">
+        <item>บีเกิล</item>
+        <item>บลูด๊อก</item>
+        <item>ชิวาวา</item>
+        <item>เฟรนช์ บูลด็อก</item>
+        <item>โกลเด้น รีทรีฟเวอร์</item>
+        <item>แจ๊ค รัสเซล เทอร์เรีย</item>
+        <item>ลาบราดอร์ รีทรีฟเวอร์</item>
+        <item>พูเดิล</item>
+        <item>ปอมเมอเรเนียน</item>
+        <item>ปั๊ก</item>
+        <item>ร๊อตต์ไวเลอร์</item>
+        <item>ชิสุ</item>
+        <item>ไซบีเรียน ฮัสกี้</item>
+        <item>ไทยบางแก้ว</item>
+        <item>ไทยหลังอาน</item>
+        <item>ยอร์คเชียร์ เทอร์เรียร์</item>
+    </array>
+
+    <array name="gender">
+        <item>ผู้</item>
+        <item>เมีย</item>
+    </array>
+
+    <array name="district">
+        <item>บางบ่อ</item>
+        <item>บางพลี</item>
+        <item>บางเสาธง</item>
+        <item>พระประแดง</item>
+        <item>พระสมุทรเจดีย์</item>
+        <item>เมืองสมุทรปราการ</item>
+    </array>
+
+    <array name="vaccinate">
+        <item>ฉีด</item>
+        <item>ไม่ได้ฉีด</item>
+    </array>
+
+    <array name="habit">
+        <item>เป็นมิตร</item>
+        <item>ดุร้าย</item>
+    </array>
+
+    <array name="collar">
+        <item>สวม</item>
+        <item>ไม่ได้สวม</item>
+    </array>
+
+    <array name="location">
+        <item>หมู่บ้าน</item>
+        <item>ซอย</item>
+        <item>ถนน</item>
+    </array>
+
+    <array name="reason">
+        <item>เด็กเล็ก</item>
+        <item>คนชรา</item>
+        <item>ที่อยู่อาศัย</item>
+        <item>ค่าใช้จ่าย</item>
+        <item>มีจำนวนมากเกินไป</item>
+    </array>
+
+    <array name="status">
+        <item>หาย</item>
+        <item>พบ</item>
+        <item>หาบ้าน</item>
+    </array>
+
+</resources>

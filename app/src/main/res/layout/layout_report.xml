@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/btn_report_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:background="@color/colorDeepO"
+        android:text="@string/report_users"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_report_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_report_users"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:background="@color/colorDeepO"
+        android:text="@string/report_all_dog"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_report_lost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_report_all"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorDeepO"
+        android:text="@string/report_lost_dog"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_report_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_report_lost"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorDeepO"
+        android:text="@string/report_found_dog"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_report_adopt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_report_found"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:background="@color/colorDeepO"
+        android:text="@string/report_adopt_dog"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>
