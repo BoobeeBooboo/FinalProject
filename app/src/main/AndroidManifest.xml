@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="drusp.shimi.finalproject"
-          android:versionCode="9"
-          android:versionName="1.0"
-          tools:ignore="GradleOverrides">
+    package="com.shimi.petep">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality.
     -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true"/>
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -35,7 +31,7 @@
         <activity
             android:name=".LostDogInputActivity"
             android:label="Lost Dog"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -46,42 +42,41 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCFaSWfSViJAESQXHUo050mblUWiShkZRE"/>
+            android:value="AIzaSyCFaSWfSViJAESQXHUo050mblUWiShkZRE" />
         <!-- ${mapApiKeyValue} -->
 
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"/>
+            android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".MapsActivity"/>
-        <activity android:name=".LostDogLocationActivity"/>
-        <activity android:name=".LostDogPostActivity"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".LostDogPosterActivity"/>
-        <activity android:name=".FoundDogInputActivity"/>
-        <activity android:name=".FoundDogLocationActivity"/>
-        <activity android:name=".FoundDogPostActivity"/>
-        <activity android:name=".FoundDogPosterActivity"/>
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".LostDogLocationActivity" />
+        <activity android:name=".LostDogPostActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LostDogPosterActivity" />
+        <activity android:name=".FoundDogInputActivity" />
+        <activity android:name=".FoundDogLocationActivity" />
+        <activity android:name=".FoundDogPostActivity" />
+        <activity android:name=".FoundDogPosterActivity" />
         <activity android:name=".ScreenActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LogInActivity"/>
-        <activity android:name=".SignUpActivity"/>
-        <activity android:name=".AdoptDogInputActivity"/>
-        <activity android:name=".AdoptDogPosterActivity"/>
-        <activity android:name=".AdoptDogPostActivity"/>
-        <activity android:name=".UserActivity"/>
-        <activity android:name=".ReportUsersActivity"/>
-        <activity android:name=".ReportDateActivity"/>
-        <activity android:name=".ReportAllDogActivity"/>
-        <activity android:name=".ReportLostDogActivity"/>
-        <activity android:name=".ReportFoundDogActivity"/>
-        <activity android:name=".ReportAdoptDogActivity">
-        </activity>
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AdoptDogInputActivity" />
+        <activity android:name=".AdoptDogPosterActivity" />
+        <activity android:name=".AdoptDogPostActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".ReportUsersActivity" />
+        <activity android:name=".ReportDateActivity" />
+        <activity android:name=".ReportAllDogActivity" />
+        <activity android:name=".ReportLostDogActivity" />
+        <activity android:name=".ReportFoundDogActivity" />
+        <activity android:name=".ReportAdoptDogActivity"></activity>
     </application>
 
 </manifest>

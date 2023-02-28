@@ -685,5 +685,7 @@
         <item>พบ</item>
         <item>หาบ้าน</item>
     </array>
+    <string name="title_convention">Module Title</string>
+    <string name="title_build_logic">Module Title</string>
 
 </resources>

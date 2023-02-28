@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/convention/build-logic.convention.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/convention/build-logic.convention.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/convention/build-logic.convention.main.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/convention/build-logic.convention.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/convention/build-logic.convention.test.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/convention/build-logic.convention.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/petep.iml" filepath="$PROJECT_DIR$/.idea/modules/petep.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/petep.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/petep.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/petep.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/petep.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/petep.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/petep.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/petep.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/petep.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-logic/petep.build-logic.iml" filepath="$PROJECT_DIR$/.idea/modules/build-logic/petep.build-logic.iml" />
     </modules>
   </component>
 </project>
